@@ -17,7 +17,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Entity
-@Table(name="monthly_spending")
+@Table(name = "monthly_spending")
 class MonthSpendingTest {
 
 	private static EntityManagerFactory emf;
@@ -48,10 +48,15 @@ class MonthSpendingTest {
 	}
 
 	@Test
-	@DisplayName("testing monthly spending actor mapping")
+	@DisplayName("testing monthly spending mapping")
 	void test() {
 		assertNotNull(spending);
 		assertEquals(300, spending.getGroceries());
+		assertEquals(800, spending.getBillsUtilities());
+		assertEquals(500, spending.getShopping());
+		assertEquals(300, spending.getGas());
+		assertEquals(100, spending.getCar());
+		assertEquals(300, spending.getHealthInsurance());
 	}
 
 }
