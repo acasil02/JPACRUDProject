@@ -1,6 +1,4 @@
-# JPACRUDProject
-
-#Spending Tracker
+# JPACRUDProject Spending Tracker
 
 #Overview
 This project is about a tracker that is suppose to help you keep track of your spendings along with adding, deleting, updating, and being able to read all of your data that has been inputed. The first step was to build the database in MySQL and creating a Spring Data to manipulate the database entity.
