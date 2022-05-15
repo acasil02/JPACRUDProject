@@ -9,14 +9,14 @@ I learned how to implement a full CRUD with a Spring Data JPA. This was so that 
 
 
 # Technologies Used
-*Spring DATA
-*JPA
-*JSP
-*HTML
-*Terminal
-*Gradle
-*MySQL Workbench
-*Java
-*TOMCAT
-*GIT
-*GitHub
+* Spring DATA
+* JPA
+* JSP
+* HTML
+* Terminal
+* Gradle
+* MySQL Workbench
+* Java
+* TOMCAT
+* GIT
+* GitHub
